@@ -1,0 +1,58 @@
+﻿#write a program relating to make an online form of fees structureof a student.Seek imformation from the user and provide desired format to enter imformation in it
+firstname=input('Enter  your first name')
+middlename=input('Enter your middle name')
+lastname=input('Enter your last name')
+address=input('Enter your Address')
+placeofbirth=input('Enter your Birth place')
+bloodgroup=input('Enter your Blood group')
+fathername=input('Enter name of your Father')
+mothername=input('Enter name of your Mother')
+contactno=int(input('Enter your Contact Number'))
+
+L=list()
+while True:
+    print('1-Fees structre of class 9')
+    print('2-Fees structue of class 10')
+    print('3-Fees structure of class 11')
+    print('4-Fees structure of class 12')
+    print('5-Exit')
+    
+c=input('Enter your choice')
+if c=='1':
+    print('1st term fees=20000')
+    print('2nd term fees=10000')
+    print('if student is intrested in extra-cirricular activities then fees=500 pm')
+elif c=='2':
+    print('1st term fees=30000')
+    print('2nd term fees=15000')
+    print('tution fees will be charged extra for 3 days in a week as 2000pm')
+    print('NO ENTRA-CIRRICULAR ACTIVITIES ALLOWED TO STUDENT APPEARING IN BOARD EXAMINATION')
+elif c=='3':
+    print('1st term fees=35000')
+    print('2nd term fees=20000')
+    print('if  student want to participate in extra-cirricular activities then fees=500 pm')
+elif c=='4':
+    print('1st term fees=40000')
+    print('2nd term fees=10000')
+    print('tution fees will be charged extra for 3 days in a week as 1500pm')
+    print('NO ENTRA-CIRRICULAR ACTIVITIES ALLOWED TO STUDENT APPEARING IN BOARD EXAMINATION')
+else:
+    print('exit')
+    
+print('Student will be engourages by school to participate in extra cirricular activities')
+print('Conceptual teaching will be  carried out for students apearing in board examination')
+print('School timing will be 7:30 to 1:00')
+print('Each saturday will be an activity day , school timing will be 7:30 to 12:00')
+      
+    
+
+    
+    
+    
+
+
+
+
+
+
+        
